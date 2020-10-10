@@ -1,0 +1,21 @@
+.pageContainer {
+    width: 100%;
+    padding: 40px;
+    padding-top: 32px;
+}
+
+.pageTitle {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.241176px;
+    margin-bottom: 16px;
+}
+
+#influencerEntryContainer {
+    display: flex;
+    flex-wrap: wrap;
+}

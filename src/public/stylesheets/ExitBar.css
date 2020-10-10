@@ -1,0 +1,13 @@
+#exitBar {
+    text-align: right;
+    width: 100%;
+    min-height: 50px;
+    border-bottom: #dbdbdb solid;
+    border-width: 0.4px;
+    align-items: center;
+    display: flex;
+    text-align: right;
+    justify-content: flex-end;
+    box-shadow: 0px 4px 3px 0px #f6f6f6;
+    background-color: white;
+}

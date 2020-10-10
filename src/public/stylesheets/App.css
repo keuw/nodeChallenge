@@ -1,0 +1,21 @@
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.flexcontainer {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    background-color: #fdfdfe;
+}

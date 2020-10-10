@@ -1,0 +1,89 @@
+.entryContainer {
+    box-shadow: 0px 0px 8px 0px #e5e5e5;
+    height: 104px;
+    width: 480px;
+    display: flex;
+    margin-bottom: 24px;
+    margin-right: 24px;
+    background-color: white;
+}
+
+#picContainer {
+    height: 100%;
+}
+
+.influencerPic {
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+    margin: 16px;
+    border-style: solid;
+    border-width: 0.2px;
+    border-color: #dbdbdb;
+}
+
+#influencerInfoContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#handleLine {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 16px;
+}
+
+#influencerHandleText {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 125%;
+    color: #757575;
+}
+
+#influencerNameText {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 125%;
+    color: #757575;
+    margin-left: 5px;
+}
+
+.statusText {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 125%;
+    margin-right: 16px;
+}
+
+#activeColor {
+    color: #bf13ff;
+}
+
+#submitColor {
+    color: #ffbf14;
+}
+
+#claimedColor {
+    color: #73ad34;
+}
+
+#dateContentContainer {
+    margin: 16px;
+    margin-left: 0px;
+}
+
+#dateContentText {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    /* or 21px */
+    color: #404040;
+}
+
+#contentText {
+    color: #757575;
+    font-weight: 450;
+}

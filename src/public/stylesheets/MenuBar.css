@@ -1,0 +1,102 @@
+#menuBar {
+    min-width: 182px;
+    height: 100%;
+    border-style: solid;
+    border-color: #dbdbdb;
+    border-width: 0.4px;
+    border-top: none;
+}
+
+#logoContainer {
+    height: 50px;
+    border-bottom: #dbdbdb solid;
+    border-width: 0.4px;
+}
+
+#imageBox {
+    position: relative;
+    top: 10px;
+    left: 19px;
+}
+
+#clientProfile {
+    height: 150px;
+    align-items: center;
+    text-align: center;
+    border-bottom: #dbdbdb solid;
+    border-width: 0.4px;
+}
+
+#profilePic {
+    margin-top: 16px;
+    border-radius: 50%;
+    height: 46px;
+    width: 46px;
+    border-style: solid;
+    border-width: 0.2px;
+    border-color: #dbdbdb;
+}
+
+#profileName {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.24117647111415863px;
+    margin: 8px;
+    color: #404040;
+}
+
+#profileType {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0.24117647111415863px;
+    margin: 7px;
+    color: #404040;
+}
+
+#nodeButton {
+    align-items: center;
+    text-align: center;
+}
+
+#menuButtonContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.pageTab {
+    align-items: center;
+    height: 34px;
+    display: flex;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0.241176px;
+    color: #404040;
+    cursor: pointer;
+    display: flex;
+}
+
+.pageTabCurrent {
+    border-left: #ffbf14 solid;
+    align-items: center;
+    height: 34px;
+    display: flex;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0.241176px;
+    color: #ffbf14;
+    cursor: pointer;
+    display: flex;
+    background-color: #f6f6f6;
+}
+
+.pageTab:hover {
+    background-color: #f6f6f6;
+}
